@@ -62,7 +62,7 @@ public class CustomListTest {
     void testDelete() {
         list = MockCityList();
         City city = new City("Regina", "Saskatchewan");
-        list.add(city);
+        list.addCity(city);
         list.delete(city);
         assertFalse(list.hasCity(city));
         City city2 = new City("Ottawa","Ontario");
