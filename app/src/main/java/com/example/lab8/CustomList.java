@@ -78,4 +78,17 @@ public class CustomList extends ArrayAdapter<City> {
     public boolean hasCity(City city) {
         return this.cities.contains(city);
     }
+
+    /**
+     * This delete the city in the list, if not in the list, throw an exception
+     * @param city
+     * This is the city to delete
+     */
+    public void delete(City city) {
+//        if (hasCity(city)) {
+//            this.cities.remove(city);
+//        } else {
+//            throw new UnsupportedOperationException("City was not found in the list.");
+//        }
+    }
 }
